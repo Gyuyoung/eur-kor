@@ -80,7 +80,7 @@ async function handle_request_api() {
 
         // Create body of Soup request
         let message = Soup.Message.new_from_encoded_form(
-            "GET", "https://economia.awesomeapi.com.br/last/EUR-BRL", Soup.form_encode_hash({}));
+            "GET", "https://economia.awesomeapi.com.br/json/last/EUR-KRW", Soup.form_encode_hash({}));
 
         // Send Soup request to API Server
         await session.send_and_read_async(message, GLib.PRIORITY_DEFAULT, null, (_, r0) => {
