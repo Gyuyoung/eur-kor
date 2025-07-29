@@ -1,3 +1,3 @@
-# EUR-BRL
+# EUR-KOR
 
-A simple extension that compares the price of the Euro with the Brazilian Reais, to show if is increasing or not.
+A simple extension that compares the price of the Euro to the South Korean Won, to show if it is increasing or not.
